@@ -91,12 +91,19 @@ python tools/plot_retrieval.py --data_path dataset/sysu-mm01 --baseline <baselin
 
 We adopt the CNN-based AGW [3] as backbone. SYSU-MM01, FC feature, average over 10 gallery trials, checkpoint at epoch 150, single run (seed 0).
 
-| Datasets | Mode | Method | Rank@1 | Rank@10 | mAP | mINP |
-| :------: | :--: | :----: | :----: | :-----: | :---: | :---: |
-| SYSU-MM01 | all | Baseline (IRL) | 74.89% | 96.96% | 70.63% | 56.54% |
-| SYSU-MM01 | all | **DFC-ReID** | 77.88% | 97.29% | 73.69% | 60.53% |
-| SYSU-MM01 | indoor | Baseline (IRL) | 80.78% | 98.55% | 83.63% | 79.98% |
-| SYSU-MM01 | indoor | **DFC-ReID** | 82.51% | 98.22% | 84.83% | 81.51% |
+**All-search**
+
+| Method | Rank-1 | Rank-10 | mAP | mINP |
+|---|---:|---:|---:|---:|
+| Baseline (IRL) | 74.89 | 96.96 | 70.63 | 56.54 |
+| **DFC-ReID (Ours)** | **77.88** | **97.29** | **73.69** | **60.53** |
+
+**Indoor-search**
+
+| Method | Rank-1 | Rank-10 | mAP | mINP |
+|---|---:|---:|---:|---:|
+| Baseline (IRL) | 80.78 | **98.55** | 83.63 | 79.98 |
+| **DFC-ReID (Ours)** | **82.51** | 98.22 | **84.83** | **81.51** |
 
 **\*The results are from a single run per setting and may exhibit fluctuations due to random splitting and seeds.**
 
