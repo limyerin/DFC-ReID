@@ -124,10 +124,6 @@ solver/    lr_scheduler.py, build_lrscheduler.py, build_optimizer.py
 tools/     pre_process_sysu.py, measure_dcl_margin.py, plot_retrieval.py
 ```
 
-### License
-
-MIT, see [LICENSE](LICENSE) (original copyright notice retained) and [NOTICE.md](NOTICE.md).
-
 ###  References
 
 [1] D. T. Nguyen, H. G. Hong, K. W. Kim, and K. R. Park. Person recognition system based on a combination of body images from visible light and thermal cameras. Sensors, 17(3):605, 2017.
