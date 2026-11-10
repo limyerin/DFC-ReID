@@ -1,10 +1,10 @@
 ## DFC-ReID: Discriminative Feature Compensation for Visible-Infrared Person Re-Identification
 
-Implementation of the paper "<u>DFC-ReID: Discriminative Feature Compensation for Visible-Infrared Person Re-Identification</u>".
+Implementation of **DFC-ReID: Discriminative Feature Compensation for Visible-Infrared Person Re-Identification**.
 
-This code is built on the official implementation of IRL [6] (*Low-light Invariant Representation Learning for Visible-Infrared Person Re-identification*, ACM MM 2025, [Code](https://github.com/Mapzzone/2025-ACMMM-IRL), MIT License). DFC-ReID adds a Discriminative Compensation Loss (DCL) on top of the IRL baseline (`--method dcl`). See [NOTICE.md](NOTICE.md) for exactly which files come from IRL and which were added or changed.
+DFC-ReID extends the official [IRL](https://github.com/Mapzzone/2025-ACMMM-IRL) implementation (ACM MM 2025, MIT License) by introducing **Discriminative Compensation Loss (DCL)** (`--method dcl`). See [NOTICE.md](https://github.com/limyerin/DFC-ReID/blob/main/NOTICE.md) for code attribution and modifications.
 
-*The original paper's `L_cl` loss is not included; the base is the publicly released two-loss IRL code.*
+*Note: The implementation is based on the publicly released two-loss IRL code, which does not include the original paper's `L_cl` loss.*
 
 ### 1. Requirements
 
