@@ -1,0 +1,8 @@
+# Versions of the conda environment ("irl") in which the experiments were run.
+# torch / torchvision were built for CUDA 12.1 (install from https://pytorch.org).
+torch==2.1.2
+torchvision==0.16.2
+numpy==1.24.3
+Pillow==10.4.0
+matplotlib==3.7.5
+tensorboardX==2.6.2.2
